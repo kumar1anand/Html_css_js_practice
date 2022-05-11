@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Prime no using while loop</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var arr=[];
+			for(var i=0;i<5;i++){
+				arr[i]=prompt("Enter value in array at position " + i);
+				arr[i]=parseInt(arr[i]);
+
+			}
+			for(var j=0;j<arr.length;j++)
+			{
+				if(arr[j]%2==0){
+					console.log("Even number====>"+arr[j]);
+				}
+				else{
+					console.log("Not a even number=====>"+arr[j]);
+				}
+			}
+			
+		</script>
+	</body>
+</html>

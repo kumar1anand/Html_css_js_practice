@@ -1,0 +1,39 @@
+.footer,.header{
+	border: 2px solid green;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	background: #ccc;
+}
+.maincontainer{
+	border: 2px solid red;
+	height: 555px;
+}
+.block{
+	position: relative;
+	border: 2px solid black;
+	height: 100px;
+	width: 100px;
+}
+.details1{
+	float: left;
+
+}
+.details2{
+	float: right;	
+}
+.details3{
+	clear: both;
+	float: left;
+	
+}
+.details4{
+	clear: both;
+	float: right;
+}
+.footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
